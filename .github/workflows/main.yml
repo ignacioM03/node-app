@@ -6,4 +6,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - run: echo "hello SRE"
-
+    - name: list files
+      run: ls -a
